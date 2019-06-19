@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.fosterpet.cmlx</groupId>
+        <artifactId>fosterpet-cmlx</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <groupId>com.fosterpet.cmlx</groupId>
+    <artifactId>fosterpet-cmlx-remote</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>fosterpet-cmlx-remote</name>
+    <description>Demo project for Spring Boot</description>
+
+    <!--配置发布信息 -->
+    <distributionManagement>
+        <repository>
+            <id>test</id>
+            <name>test</name>
+            <url>http://127.0.0.1:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>test</id>
+            <name>test</name>
+            <url>http://127.0.0.1:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+</project>
